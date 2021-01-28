@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'GothamPro';
+  font-style: normal;
+  font-weight: 400;
+   src: 
+       url('fonts/Gotham-Pro/GothamPro.woff2') format('woff2'), 
+       url('fonts/Gotham-Pro/GothamPro.woff') format('woff'); 
+}
+@font-face {
+  font-family: 'GothamPro-Bold';
+  font-style: normal;
+  font-weight: 800;
+   src: 
+       url('fonts/Gotham-Pro/GothamPro-Bold.woff2') format('woff2'), 
+       url('fonts/Gotham-Pro/GothamPro-Bold.woff') format('woff'); 
+}
+html {
+	scroll-behavior: smooth;
+}
+.logo{
+	margin-top: 20px;
+	height: 184px;
+	width: 387px;
+	margin-bottom: 20px;
+}
+.header{
+	background: url("images/head.jpg") no-repeat fixed top;
+	background-attachment: scroll;
+}
+.page_background{
+	background: black; 
+}
+.ticket-list{ 
+	columns: 2; 
+	-webkit-columns: 2;
+	-moz-columns: 2;
+    list-style: none;
+    text-align: left;
+}
+.bold-date{
+	font-weight: 900;
+	font-style: bold !important;
+	font-family: 'GothamPro', sans-serif;
+}
+body{
+	font-family: 'GothamPro', sans-serif;
+	 overflow-anchor: none;  
+	 scroll-behavior: smooth;
+}
+.ticket-link{
+	color: #FCDB00;
+	text-decoration: none;
+}
+.ticket-link:hover{
+	color: #F81894;
+	text-decoration: underline;
+}
+.member-wrapper{
+	text-align: center;
+	height: 214px;
+}
+.member-1{
+	background-image: url("images/egor.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 214px;
+	width: 214px;
+	margin: 0 auto;
+}
+.member-1:hover{
+	background-image: url("images/egor.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.member-2{
+	background-image: url("images/serg.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 214px;
+	width: 214px;
+	margin: 0 auto;
+}
+.member-2:hover{
+	background-image: url("images/serg.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.member-3{
+	background-image: url("images/serik.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 214px;
+	width: 214px;
+	margin: 0 auto;
+}
+.member-3:hover{
+	background-image: url("images/serik.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.member-4{
+	background-image: url("images/sania.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	height: 214px;
+	width: 214px;
+	margin: 0 auto;
+}
+.member-4:hover{
+	background-image: url("images/sania.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.ticket-list li{
+	color: #c2c2c2;
+}
+.albom:hover{
+	width: 350px;
+	height: 350px;
+	  -webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.albom{
+	-webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.arrow_up{
+	scroll-behavior: smooth;
+	-webkit-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.home_table{
+	scroll-behavior: smooth;
+}
+.header-link{
+	text-decoration: none;
+}
